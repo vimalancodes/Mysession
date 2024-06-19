@@ -12,7 +12,7 @@ def fibonacci(n):
             next_num = fib_sequence[-1] + fib_sequence[-2]
             fib_sequence.append(next_num)
         return fib_sequence
-
+#no input received from user
 n = 8
 fib_sequence = fibonacci(n)
 print(fib_sequence)
