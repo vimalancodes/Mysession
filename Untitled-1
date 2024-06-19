@@ -1,0 +1,5 @@
+a = "Hi Chandana"
+n = int(input("Enter a number: "))
+print("The number is: ", n)
+b =n
+print(f"{a}{b}" )
